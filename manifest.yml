@@ -1,0 +1,9 @@
+applications:
+- name: demo
+  path: ./target/demo.zip
+  memory: 512M
+  timeout: 180
+  instances: 1
+  buildpack: liberty-for-java
+  host: cjMicroservice
+  domain: mybluemix.net
